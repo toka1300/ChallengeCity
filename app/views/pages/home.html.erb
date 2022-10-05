@@ -1,2 +1,10 @@
-<h1>Pages#home</h1>
-<p>Find me in app/views/pages/home.html.erb</p>
+<div class="container d-flex justify-space-between">
+  <div class="photo-landing">
+    <img src="https://images.unsplash.com/photo-1517455160094-397f79c8cc39?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8OTB8NjE1NTc0fHxlbnwwfHx8fA%3D%3D&auto=format&fit=crop&w=500&q=60" alt="Challenge Photo">
+  </div>
+  <div class="container-landing-info">
+    <h1>Welcome to Challenge City!</h1>
+    <h3>Find inspiration for a 30-day challenge that will put you out of your comfort zone and maybe even crate a great new habit!</h3>
+    <%= link_to "Find Your Next Challenge", challenges_path, class: "button-primary" %>
+  </div>
+</div>
