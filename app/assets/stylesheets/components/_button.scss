@@ -1,0 +1,14 @@
+.button-primary {
+  padding: 8px;
+  background-color: $main;
+  text-decoration: none;
+  color: white;
+  border-radius: 8px;
+}
+
+.button-primary:hover {
+  background-color: $secondary;
+  transition: 0.6s;
+  text-decoration: none;
+  color: white;
+}
