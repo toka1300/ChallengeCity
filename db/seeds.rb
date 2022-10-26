@@ -12,39 +12,45 @@ Challenge.create!([{
     add in grains (barley, quinoa and oatmeal), more fruit, extra glass of wine and 1 oz of dark chocolate. \
     Finally, in week 4: two starches (including bread and rice), 5 glasses of wine per week",
     category: "Diet",
-    poster_url: "https://images.unsplash.com/photo-1518691340140-512e66ce957b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTJ8fHN1Z2FyfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60"
+    poster_url: 'https://images.unsplash.com/photo-1518691340140-512e66ce957b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=865&q=80'
+    # poster_url: '/images/sugar_free.svg'
   },
   {
     title: "Intermittent Fasting",
     description: "16 hours of fasting, 8 hours for eating. For example, eat between noon and 8pm and fast from 8pm until noon",
     category: "Diet",
     poster_url: "https://images.unsplash.com/photo-1499377193864-82682aefed04?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OHx8Y2xvY2t8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60"
+    # poster_url: "/images/fasting.svg"
   },
   {
     title: "Cold Showers",
     description: "Turn the tap all the way to cold and take at least a 5 minute shower for full benefits, it gets better \
     after the first 10 seconds!",
     category: "health",
-    poster_url: "https://images.unsplash.com/photo-1643081262278-807976f7f2f7?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTZ8fHNob3dlcnxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60"
+    # poster_url: "/images/cold_showers.svg"
+    poster_url: "https://images.unsplash.com/photo-1517455160094-397f79c8cc39?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8OTB8NjE1NTc0fHxlbnwwfHx8fA%3D%3D&auto=format&fit=crop&w=500&q=60"
   },
   {
     title: "Limit phone usage",
     description: "Limit your phone usage to 1 hour per day. This can be achieved by batching your phone time into chunks, \
     in the morning before work, at lunch and some time after dinner",
     category: "Mental",
-    poster_url: "https://images.unsplash.com/photo-1523206489230-c012c64b2b48?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Nnx8cGhvbmV8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60"
+    poster_url: "https://images.unsplash.com/photo-1588129332066-ee3506e61cb1?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80"
+    # poster_url: "/images/limit_phone.svg"
   },
   {
     title: "Meditation",
     description: "5 minutes of meditaion each day",
     category: "mental",
-    poster_url: "https://images.unsplash.com/photo-1506126613408-eca07ce68773?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTN8fG1lZGl0YXRpb258ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60"
+    poster_url: "https://images.unsplash.com/photo-1517363898874-737b62a7db91?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=763&q=80"
+    # poster_url: "/images/meditaion.svg"
   },
   {
     title: "Draw a doodle",
     description: "Each day, draw a doodle as simple or as complex as your desire that day!",
     category: "Creativity",
-    poster_url: "https://uploads-ssl.webflow.com/627568c6c0cf1d81b1fb9438/62864f123dba7f1385796bd9_WineHand_framed_blue-p-800.jpeg"
+    poster_url: "https://images.unsplash.com/photo-1548425083-4261538dbca4?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80"
+    # poster_url: "/images/doodle.svg"
   }
 ])
 
