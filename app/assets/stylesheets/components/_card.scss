@@ -8,7 +8,7 @@
   box-shadow: 0 0 15px rgba(0,0,0,0.2);
 }
 
-.card-challenge > img {
+.card-challenge img {
   height: 200px;
   width: 100%;
   object-fit: cover;
@@ -20,10 +20,19 @@
   margin: 0;
 }
 
-.card-challenge p {
-  font-size: 12px;
-  opacity: .7;
-  margin: 0;
+// .card-challenge p {
+//   font-size: 12px;
+//   opacity: .7;
+//   margin: 0;
+//   text-decoration: none!important;
+// }
+
+h2 {
+  text-decoration: none;
+}
+
+a {
+  text-decoration: none;
 }
 
 .card-challenge .card-challenge-infos {
