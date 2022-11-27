@@ -1,17 +1,26 @@
-.card {
-  width: 20wh;
-}
-
 .card-challenge {
   overflow: hidden;
   background: white;
   box-shadow: 0 0 15px rgba(0,0,0,0.2);
+  height: 45vh;
+  text-decoration: unset;
+  color: inherit;
+  position: relative;
+}
+
+.card-challenge:hover {
+  text-decoration: unset;
+  color: inherit
 }
 
 .card-challenge img {
-  height: 200px;
+  height: 60%;
   width: 100%;
   object-fit: cover;
+}
+
+.card-challenge-infos {
+  padding: 16px;
 }
 
 .card-challenge h2 {
@@ -20,32 +29,11 @@
   margin: 0;
 }
 
-// .card-challenge p {
-//   font-size: 12px;
-//   opacity: .7;
-//   margin: 0;
-//   text-decoration: none!important;
-// }
-
-h2 {
-  text-decoration: none;
-}
-
-a {
-  text-decoration: none;
-}
-
-.card-challenge .card-challenge-infos {
-  padding: 16px;
-  display: flex;
-  justify-content: space-between;
-  align-items: flex-end;
-  position: relative;
-}
-
 .card-challenge-category {
   position: absolute;
-  right: 16px;
-  top: -20px;
-  width: 40px;
+  left: 16px;
+  top: 16px;
+  // width: 40%;
+  // height: 15%;
+  overflow: visible;
 }

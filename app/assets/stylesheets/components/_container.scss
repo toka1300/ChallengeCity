@@ -1,5 +1,5 @@
 .container-cards {
-  margin: 64px;
+  // margin: 64px;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-gap: 16px;
@@ -7,4 +7,9 @@
 
 .container-landing-info {
   margin: 32px;
+}
+
+.test {
+  margin-left: 80px;
+  margin-right: 80px;
 }

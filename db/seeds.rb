@@ -3,14 +3,18 @@ Challenge.destroy_all
 
 puts "Let's create some challenges for ya!"
 Challenge.create!([{
+    # benefits
+    # how to do it
+    # Time
     title: "Sugar Free",
-    description: "No added sugar, with an even stricter start to readjust your palette. In the first 3 days: no fruits, \
-    no starchy vegetables (such as corn, peas, sweet potatoes and butternut squash), no dairy, no grains and no alcohol. \
-    You're basically eating protein, vegetables and healthy fats. For the rest of week 1 add in a piece of fruit, a \
-    serving of dairy, some higher sugar vegetables, such as carrots and snow peas, high fibre crackers and 3 glasses \
-    of wine for the week. In week two add berries, starchy veg (squash, yams) and an extra serving of dairy In week 3, \
-    add in grains (barley, quinoa and oatmeal), more fruit, extra glass of wine and 1 oz of dark chocolate. \
-    Finally, in week 4: two starches (including bread and rice), 5 glasses of wine per week",
+    description: "No added sugar, comes with a suggested plan that starts strict and becomes more relaxed",
+    # description: "No added sugar, with an even stricter start to readjust your palette. In the first 3 days: no fruits, \
+    # no starchy vegetables (such as corn, peas, sweet potatoes and butternut squash), no dairy, no grains and no alcohol. \
+    # You're basically eating protein, vegetables and healthy fats. For the rest of week 1 add in a piece of fruit, a \
+    # serving of dairy, some higher sugar vegetables, such as carrots and snow peas, high fibre crackers and 3 glasses \
+    # of wine for the week. In week two add berries, starchy veg (squash, yams) and an extra serving of dairy In week 3, \
+    # add in grains (barley, quinoa and oatmeal), more fruit, extra glass of wine and 1 oz of dark chocolate. \
+    # Finally, in week 4: two starches (including bread and rice), 5 glasses of wine per week",
     category: "Diet",
     poster_url: 'https://images.unsplash.com/photo-1518691340140-512e66ce957b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=865&q=80'
     # poster_url: '/images/sugar_free.svg'

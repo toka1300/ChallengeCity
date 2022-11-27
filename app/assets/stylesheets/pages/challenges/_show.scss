@@ -1,0 +1,14 @@
+#challenges-show {
+  display: flex;
+}
+
+#challenges-show h1 {
+
+}
+
+#challenges-show img {
+  height: 60vh;
+  width: 40vw;
+  margin: 0 48px 48px 0;
+  // width: clamp(60vw, 100%, 40vw);
+}

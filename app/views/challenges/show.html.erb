@@ -1,3 +1,9 @@
-<h1>Show Page</h1>
+<h1> <%= @challenge.title %></h1>
 
-<h2> <%= @challenge.title %> </h2>
+<div id="challenges-show">
+  <img src="<%= @challenge.poster_url %>" alt="Challenge Photo">
+  <div class="show-info">
+    <p><%= @challenge.description %></p>
+    <button>Add to my challenges</button>
+  </div>
+</div>
