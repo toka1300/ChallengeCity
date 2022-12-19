@@ -4,6 +4,10 @@
   <img src="<%= @challenge.poster_url %>" alt="Challenge Photo">
   <div class="show-info">
     <p><%= @challenge.description %></p>
-    <button>Add to my challenges</button>
+
+    <%= form_with url:my_challenges_create_path, method: :post do |f| %>
+      <%= f.text_field :id, type: :hidden, value: @challenge.id %>
+      <%= f.submit 'Add this challenge!', :class => 'btn-follow' %>
+    <% end %>
   </div>
 </div>
