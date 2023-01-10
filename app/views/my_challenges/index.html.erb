@@ -1,2 +1,6 @@
-<h1>MyChallenges#index</h1>
-<p>Find me in app/views/my_challenges/index.html.erb</p>
+<h1>MyChallenges</h1>
+
+<% @my_challenges.each do |challenge| %>
+  <h3><%= Challenge.find(challenge.challenge_id).title %></h3>
+  <img src="<%= Challenge.find(challenge.challenge_id).poster_url %>" alt="Challenge photo">
+<% end %>

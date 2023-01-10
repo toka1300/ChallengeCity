@@ -1,4 +1,4 @@
-<main class="container-cards">
+<div class="container container-cards">
   <% @challenges.each do |challenge|%>
     <%= link_to(challenge_path(challenge), class: "card-challenge") do %>
       <img src= "<%= challenge.poster_url %>", alt="Challenge poster">
@@ -11,4 +11,5 @@
       </div>
     <% end %>
   <% end %>
-</main>
+</div>
+
